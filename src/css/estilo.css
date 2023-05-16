@@ -1,0 +1,192 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #9b9b9b;
+    color: #333333;
+}
+
+body.modo-escuro {
+    background-color: #212121;
+    color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+header .logo,
+header .imagem-botao {
+    width: 30px;
+    transition: 0.2s ease-in-out;
+}
+
+header #botao-tema {
+    background: none;
+    border: none;
+}
+
+header .logo:hover,
+header .imagem-botao:hover,
+main .cartao-pokemon:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+main {
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+main .cartao-pokemon {
+    background-color: #d8e3ec;
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+main .cartao-pokemon:hover {
+    background-color: #96e9d6;
+
+}
+
+.modo-escuro .cartao-pokemon {
+    background-color: #a8a8a8;
+}
+
+.modo-escuro .cartao-pokemon .informacoes {
+    border: 1px solid #ffffff;
+}
+
+.modo-escuro .cartao-pokemon:hover {
+    background-color: #666666;
+}
+
+main .cartao-pokemon .informacoes {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+main .cartao-pokemon .informacoes span {
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+main .cartao-pokemon .gif {
+    height: 90px;
+}
+
+main .cartao-pokemon .tipos {
+    display: flex;
+    gap: 15px;
+}
+
+main .cartao-pokemon .tipo {
+    padding: 8px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: 1px solid #ffffff;
+    font-weight: bold;
+}
+
+
+.normal {
+    background-color: #889399;
+}
+
+.fighting {
+    background-color: #d63f6c;
+}
+
+.flying {
+    background-color: #92aee7;
+}
+
+.poison {
+    background-color: #df67fb;
+}
+
+.ground {
+    background-color: #d8733c;
+}
+
+.rock {
+    background-color: #c2b37c;
+}
+
+.bug {
+    background-color: #a6b91a;
+}
+
+.ghost {
+    background-color: #4b60a0;
+}
+
+.steel {
+    background-color: #5a8ea2;
+}
+
+.fire {
+    background-color: #f8a100;
+}
+
+.water {
+    background-color: #6390f0;
+}
+
+.grass {
+    background-color: #7ac74c;
+}
+
+.electric {
+    background-color: #f4d23c;
+}
+
+.psychic {
+    background-color: #fa7179;
+}
+
+.ice {
+    background-color: #73cec0;
+}
+
+.dragon {
+    background-color: #0b6dc3;
+}
+
+.dark {
+    background-color: #5a5465;
+}
+
+.fairy {
+    background-color: #ec8fe6;
+}
+
+.no-type {
+    display: none;
+}
+
+main .descricao {
+    max-height: 80px;
+    overflow-y: scroll;
+    font-size: 14px;
+    padding-right: 10px;
+}
