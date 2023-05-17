@@ -281,7 +281,7 @@ const dex = ["",
 /*148*/"Dragonair armazena uma enorme quantidade de energia dentro de seu corpo. Diz-se que altera as condições climáticas nas proximidades, descarregando energia dos cristais no pescoço e na cauda.",
 /*149*/"Dragonite é capaz de circular o globo em apenas 16 horas. É um Pokémon de bom coração que leva navios perdidos e afundando em uma tempestade à segurança da terra.",
 /*150*/"Mewtwo é um Pokémon que foi criado por manipulação genética. No entanto, embora o poder científico dos humanos tenha criado o corpo desse Pokémon, eles não conseguiram dotar Mewtwo de um coração compassivo.",
-/*151*/"[Não há dados]"
+/*151*/"Diz-se que Mew possui a composição genética de todos os Pokémon. Ele é capaz de se tornar invisível à vontade, por isso evita a percepção, mesmo que se aproxime das pessoas. Quando é visto detalhadamente através de um microscópio, os cabelos curtos, finos e delicados deste Pokémon mítico podem ser vistos."
 ]
 
 botaoAlterarTema.addEventListener("click", () => {
