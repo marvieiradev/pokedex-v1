@@ -41,7 +41,9 @@ const createPokemonCard = (poke) => {
          </div>
 
          
-        <img src="https://raw.githubusercontent.com/marvieiradev/imgs-projetos/master/pokemon/${poke.id}.png" alt="${name}" class="gif">
+        <ul class="bg-poke">
+            <img src="https://raw.githubusercontent.com/marvieiradev/imgs-projetos/master/pokemon/${poke.id}.png" alt="${name}" class="png">
+        </ul>
         <ul class="tipos">
             <li class="tipo ${type1}">${obterTipo(type1)}</li>
             <li class="tipo ${type2}">${obterTipo(type2)}</li>

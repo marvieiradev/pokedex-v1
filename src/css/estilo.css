@@ -17,7 +17,7 @@ header {
     padding: 25px;
     font-size: 30px;
     font-weight: bold;
-    
+
 }
 
 header .logo,
@@ -44,7 +44,7 @@ main {
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
-    
+
 }
 
 main .cartao-pokemon {
@@ -90,9 +90,23 @@ main .cartao-pokemon .informacoes span {
     font-size: 15px;
 }
 
-main .cartao-pokemon .gif {
+.bg-poke {
+    background-image: url(../imagens/bg-poke.png);
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 90px;
+    padding: auto;
+}
+
+main .cartao-pokemon .png {
     height: 90px;
 }
+
+
 
 main .cartao-pokemon .tipos {
     display: flex;
